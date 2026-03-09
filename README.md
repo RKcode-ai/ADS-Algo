@@ -23,4 +23,4 @@ I created this repository to bridge the gap between algorithmic theory and pract
 
 Feel free to explore the folders to see my code and read my interpretations of the data!
 
-BEST => RAYYAN KHATTAK
+BEST - RAYYAN KHATTAK (RK)
