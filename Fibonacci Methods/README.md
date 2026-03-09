@@ -20,7 +20,7 @@ This folder explores one of the most famous mathematical sequences in computer s
 * **Analysis:** While fast on paper, this method introduces a critical engineering flaw: **floating-point precision loss**. As $n$ grows large, floating-point limitations cause rounding errors, meaning it returns the *wrong* Fibonacci number for large inputs. 
 
 ### 4. Matrix Multiplication (The Optimal Scaling Solution)
-* **Approach:** Represents the sequence as a $2 \times 2$ matrix $$\begin{bmatrix} 1 & 1 \\ 1 & 0 \end{bmatrix}$$ and uses **exponentiation by squaring** to compute the $n$-th power.
+* **Approach:** Represents the sequence as a $2 \times 2$ matrix $$\begin{bmatrix} 1 & 1 \cr 1 & 0 \end{bmatrix}$$ and uses **exponentiation by squaring** to compute the $n$-th power.
 * **Time Complexity:** $\Theta(\log n)$ (Logarithmic)
 * **Analysis:** It is the ultimate solution for massive inputs. It avoids floating-point errors by strictly using integer arithmetic while maintaining logarithmic speed.
 
